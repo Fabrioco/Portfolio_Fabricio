@@ -1,3 +1,5 @@
+import picture from "./Resources/picture me.jpeg"
+
 function Sobre() {
     return(
         <div>
@@ -6,7 +8,7 @@ function Sobre() {
                 <p>loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</p>
             </div>
             <div>
-                <img />
+                <img src={picture} />
             </div>
         </div>
     )
