@@ -2,7 +2,7 @@ import picture from "./Resources/picture me.jpeg"
 
 function Sobre() {
     return(
-        <div>
+        <div id="about">
             <div>
                 <h2>Saiba mais sobre mim</h2>
                 <p>loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</p>
