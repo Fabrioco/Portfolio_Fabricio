@@ -1,24 +1,24 @@
 import Network from "./Resources/Network.svg"
 import CurriculoFabrício from "./Resources/CurriculoFabricio.pdf";
 
+import About from '../Contacts/Contact'
 
+import './index.css';
 
 function Objective() {
     return(
-        <div>
-            <div>
-                <div>
-                    <h1>Meu nome é Fabrício</h1>
+        <div id="AllObjective">
+            <div id="panel">
+                <div id="my-person">
+                    <p>Meu nome é <h2 id="my-name">Fabrício</h2></p>
                     <p>Sou desenvolvedor front end</p>
+                    <a id="link" href={CurriculoFabrício} download="Curriculo Fabricio Lopes">Currículo</a>
                 </div>
                 <div>
-                  <a href={CurriculoFabrício} download="Curriculo Fabricio Lopes">Currículo! </a>
-                </div>
-                <div>
-                    <img src={Network} />
+                    <img id="svg" src={Network} />
                 </div>
             </div>
-                <a href="#Sobre">Role para baixo</a>
+                <a id="down" href="#about">Role para baixo</a>
         </div>
     )
 }

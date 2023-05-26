@@ -6,6 +6,7 @@
     margin: auto;
     height: 150px;
     background-color: #171717;
+    width: 100%;
 }
 
 
@@ -33,9 +34,19 @@
     color: #FFFFFF;
     list-style-type: disc;
     list-style-position: inside;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
     flex-direction:column ;
-    width: 130px;
+    width: 153px;
     margin: 0 0 0 20px;
+}
+
+#navegation a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#navegation a:active {
+    color: #01A7C2;
+    text-decoration: underline;
 }
