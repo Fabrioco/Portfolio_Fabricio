@@ -1,6 +1,11 @@
 import Network from "./components/Resources/Network.svg"
 import CurriculoFabrício from './components/Resources/CurriculoFabricio.pdf';
 import picture from "./components/Resources/picture-me.jpeg"
+import HTML from './components/Resources/html.svg';
+import CSS from './components/Resources/css.svg';
+import JS from './components/Resources/JS.svg';
+import RJS from './components/Resources/ReactJS.svg';
+import locked from './components/Resources/lock.svg'
 
 import './index.css'
 
@@ -35,7 +40,7 @@ function Home() {
                 <a id="down" href="#AllAbout">Role para baixo</a>
                 <a id="BackToTop" href="#header">&uarr;</a>
         </div>
-        <div id="about">
+        <div id="content-about">
             <div id="AllAbout">
                 <h2 id="TitleAbout">Saiba mais sobre mim</h2>
                 <p id="TextMe">
@@ -44,6 +49,17 @@ function Home() {
             </div>
             <div>
                 <img id='PicMe' src={picture} />
+            </div>
+            <div id="disciplines">
+                <img className="courses" src={HTML} />
+                <img className="courses" src={CSS} />
+                <img className="courses" src={JS} />
+                <img className="courses" src={RJS} />
+                <img className="courses" src={locked} />
+                <img className="courses" src={locked} />
+                <img className="courses" src={locked} />
+                <img className="courses" src={locked} />
+                <img className="courses" src={locked} />
             </div>
         </div>
         <div id="project">

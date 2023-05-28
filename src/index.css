@@ -47,11 +47,10 @@
     color: #FFFFFF;
     list-style-type: disc;
     list-style-position: inside;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
-    flex-direction:column ;
+    flex-direction: column;
     width: 153px;
-    margin: 0 0 0 20px;
     background-color: #171717;
 }
 
@@ -169,16 +168,17 @@
 
 /*ABOUT*/
 
-#about {
+#content-about {
     background-color: #110F0F;
     display: flex;
-    width: 100%;
+    width: 70%;
     margin: auto;
+    justify-content: center;
 }
 
 #AllAbout {
-    display: grid;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 #TitleAbout {
@@ -194,8 +194,8 @@
 
 #TextMe {
     margin: 0 auto;
-    width: 450px;
-    padding: 50px 30px 50px 20px;
+    width: 300px;
+    padding: 50px 180px 50px 20px;
     font-size: 20px;
     color:#FFFFFF;
     text-align: justify;
@@ -206,7 +206,30 @@
 }
 
 #PicMe {
-    width: 300px;
+    width: 200px;
     border-radius: 100%;
-    margin-left: 100%;
+    position: relative;
+    top: 100px;
+    left: -100px;
+    margin: 0;
+    box-shadow: 0px 0px 10px 1px #01A7C2;
+}
+
+#disciplines {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -200px;
+    width: 250px;
+    padding: 0 0 0 250px;
+    border-bottom: 3px solid white;
+    flex-wrap: wrap;
+}
+
+.courses {
+    width: 50px;
+    background-color: white;
+    margin: auto 5px;
+    padding: 5px;
 }
