@@ -32,20 +32,22 @@ function Home() {
                     <img id="svg" src={Network} />
                 </div>
             </div>
-                <a id="down" href="#about">Role para baixo</a>
+                <a id="down" href="#AllAbout">Role para baixo</a>
+                <a id="BackToTop" href="#header">&uarr;</a>
         </div>
         <div id="about">
             <div id="AllAbout">
                 <h2 id="TitleAbout">Saiba mais sobre mim</h2>
                 <p id="TextMe">
-                    loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</p>
+                Olá, tenho 20 anos, com um pouco de conhecimento em Inglês e aprendendo Japonês. Com conhecimentos básicos em HTML5, CSS3, JavaScript e ReactJS.
+                  Ainda sem experiência, pois estou estudando para poder conseguir um emprego na área da programação. De começo como Desenvolvedor Front-End Junior.</p>
             </div>
             <div>
                 <img id='PicMe' src={picture} />
             </div>
         </div>
         <div id="project">
-            <div>
+            <div id="project">
                 <div>
                     <h2>Projetos</h2>
                 </div>
@@ -55,7 +57,7 @@ function Home() {
             </div>
         </div>
         <div id="contact">
-            <div>
+            <div id="contact">
                 <h3>Contatos</h3>
                 <h3>Redes Sociais</h3>
             </div>
