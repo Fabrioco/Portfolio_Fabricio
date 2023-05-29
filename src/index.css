@@ -271,8 +271,13 @@
     height: 200px;
     border-radius: 20px;
     border: 1px solid #01A7C2;
-    box-shadow: 0 3px 3px #01A7C2;
+    box-shadow: 0 2px 5px 1px #01A7C2;
     margin: 0 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1),2s;
 }
 
@@ -282,18 +287,30 @@
     transition: cubic-bezier(0.47, 0, 0.745, 0.715),0.5s;
 }
 
+.PicWhatever {
+    align-items: center;
+    background-color: #110F0F;
+    width: 100px;
+    padding: 5px 25px;
+    margin: auto;
+    border: 2px solid #01A7C2;
+    border-radius: 5px;
+}
+
 #seconds {
     background-color: white;
     width: 250px;
     height: 250px;
     border-radius: 20px;
     border: 1px solid #01A7C2;
-    box-shadow: 0 3px 3px #01A7C2;
+    box-shadow: 0 2px 5px 1px #01A7C2;
     margin: 0 40px;
     display: flex;
-    justify-content: center;
-    align-items: last baseline;
+    justify-content: flex-end;
+    align-items: center;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1),2s;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 #seconds:hover {
@@ -302,24 +319,57 @@
     transition: cubic-bezier(0.47, 0, 0.745, 0.715),0.75s;
 }
 
+#TextProjects {
+    background-color: #01a8c200;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.PicProjects {
+    align-items: center;
+    background-color: #110F0F;
+    width: 120px;
+    padding: 5px 25px;
+    margin: auto;
+    border: 2px solid #01A7C2;
+    border-radius: 5px;
+}
+
+
 #first {
     background-color: white;
     width: 300px;
     height: 300px;
     border-radius: 20px;
     border: 1px solid #01A7C2;
-    box-shadow: 0 3px 3px #01A7C2;
+    box-shadow: 0 2px 5px 1px #01A7C2;
     margin: 0 40px;
     display: flex;
-    justify-content: center;
-    align-items: last baseline;
+    justify-content: flex-end;
+    align-items: center;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1),2s;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 #first:hover {
     width: 350px;
     height: 350px;
     transition: cubic-bezier(0.47, 0, 0.745, 0.715),1s;
+}
+
+#PicPrime {
+    align-items: center;
+    background-color: #110F0F;
+    width: 150px;
+    padding: 5px 25px;
+    margin: auto;
+    border: 2px solid #01A7C2;
+    border-radius: 5px;
+    color: white;
 }
 
 #btns {
@@ -340,9 +390,57 @@
 
 #btns:hover {
     text-decoration: underline;
-}
-
-#btns:active {
     background-color: #01A7C2;
     color: white;
+}
+
+/*Contact*/
+
+#AllContact {
+    display: flex;
+    margin: 300px auto 100px auto;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+}
+
+#Contact {
+    display: grid;
+    margin-right: 100px;
+}
+
+#TitleContact {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    margin-bottom: 100px;
+
+}
+
+.TextContact {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#SocialMedia {
+    display: grid;
+    margin-left: 100px;
+    margin: auto;
+
+}
+
+#svglinkedin {
+    width: 40px;
+    margin: 0 10px 0 0;
+}
+
+#svgfacebook {
+    width: 30px;
+    margin: 0 15px;
 }

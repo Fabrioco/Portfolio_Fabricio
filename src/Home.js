@@ -1,11 +1,21 @@
 import Network from "./components/Resources/Network.svg"
 import CurriculoFabrício from './components/Resources/CurriculoFabricio.pdf';
+
 import picture from "./components/Resources/picture-me.jpeg"
+
 import HTML from './components/Resources/html.svg';
 import CSS from './components/Resources/css.svg';
 import JS from './components/Resources/JS.svg';
 import RJS from './components/Resources/ReactJS.svg';
-import locked from './components/Resources/lock.svg'
+import locked from './components/Resources/lock.svg';
+
+import android from './components/Resources/android.svg';
+import cordel from './components/Resources/cordel.svg';
+import primeflix from './components/Resources/primeflix.svg';
+import whatever from './components/Resources/whatever.svg'
+
+import facebook from './components/Resources/facebooklink.svg';
+import linkedin from './components/Resources/linkedinlink.svg';
 
 import './index.css'
 
@@ -68,30 +78,48 @@ function Home() {
                     <h2 id="TitleProjects">Meus Projetos</h2>
                 </div>
                 <div id="projects">
-                    <div id="whatever"  ></div>
-                    <div id='seconds'><a id="btns" target="_blank" href="https://fabrioco.github.io/Projeto-Android/">Acessar</a></div>
-                    <div id="first"><a id="btns" target="_blank" href="https://primeflix-fabricio.netlify.app/">Acessar</a></div>
-                    <div id='seconds'><a id="btns" target="_blank" href="https://fabrioco.github.io/Projeto-Cordel/">Acessar</a></div>
-                    <div id="whatever"></div>
+                    <div id="whatever"  >
+                        <img className="PicWhatever" src={whatever} />
+                        <p id="TextProjects">Em Breve</p>
+                        </div>
+                    <div id='seconds'>
+                        <img className="PicProjects" src={android} />
+                        <p id="TextProjects">Projeto Android</p>
+                        <a id="btns" target="_blank" href="https://fabrioco.github.io/Projeto-Android/">Acessar</a>
+                        </div>
+                    <div id="first">
+                        <img id="PicPrime" src={primeflix} />
+                        <p id="TextProjects" >Prime Flix</p>
+                        <a id="btns" target="_blank" href="https://primeflix-fabricio.netlify.app/">Acessar</a>
+                        </div>
+                    <div id='seconds'>
+                        <img className="PicProjects" src={cordel} />
+                        <p id="TextProjects" >Projeto Cordel</p>
+                        <a id="btns" target="_blank" href="https://fabrioco.github.io/Projeto-Cordel/">Acessar</a>
+                        </div>
+
+                    <div id="whatever">
+                        <img className="PicWhatever" src={whatever} />
+                        <p id="TextProjects">Em Breve</p>                        
+                        
+                        </div>
                 </div>
             </div>
         </div>
         <div id="AllContact">
-            <div id="contact">
-                <h3>Contatos</h3>
-                <h3>Redes Sociais</h3>
+            <div id="Contact">
+                <h3 id="TitleContact" >Contatos</h3>
+                <p className="TextContact">Email: fl5513108@gmail.com</p>
+                <p className="TextContact">Celular: (11) 96016-8159</p>  
             </div>
-            <div>
-                <p>fl5513108@gmail.com</p>
-                <p>11 96016-8159</p>
+            <div id="SocialMedia">
+                <h3 id="TitleContact" >Redes Sociais</h3>
+                <a className="TextContact" target="_blank" href="https://www.linkedin.com/in/fabricio-lopes1325">
+                <img id="svglinkedin" src={linkedin} />LinkedIn</a>
+
+                <a href="https://www.facebook.com/bibicio.oliveiralopes" target="_blank" className="TextContact">
+                    <img id="svgfacebook" src={facebook} />Facebook</a>
             </div>
-            <div>
-                <a>LinkedIn</a>
-                <a>Facebook</a>
-            </div>
-        </div>
-        <div>
-            <p>&copy; Fabrício Oliveira Lopes</p>
         </div>
         </div>
     )
