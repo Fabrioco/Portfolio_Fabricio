@@ -20,7 +20,6 @@
 
 
 #title {
-    font-family: 'Fugaz One', cursive;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
     margin: auto;
@@ -232,4 +231,118 @@
     background-color: white;
     margin: auto 5px;
     padding: 5px;
+}
+
+/*PROJECTS*/
+
+#projects {
+    display: flex;
+}
+
+#TitleProjects {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    width: 350px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 1px solid #01A7C2;
+    box-shadow: 0px 3px 3px #01A7C2;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    padding: 5px 10px;
+}
+
+#projects {
+    display: flex;
+    width: auto;
+    max-height: 302px;
+    margin: auto;
+    place-items: center;
+    justify-content: center;
+
+}
+
+#whatever {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid #01A7C2;
+    box-shadow: 0 3px 3px #01A7C2;
+    margin: 0 40px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1),2s;
+}
+
+#whatever:hover {
+    width: 350px;
+    height: 350px;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715),0.5s;
+}
+
+#seconds {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 1px solid #01A7C2;
+    box-shadow: 0 3px 3px #01A7C2;
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1),2s;
+}
+
+#seconds:hover {
+    width: 350px;
+    height: 350px;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715),0.75s;
+}
+
+#first {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid #01A7C2;
+    box-shadow: 0 3px 3px #01A7C2;
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1),2s;
+}
+
+#first:hover {
+    width: 350px;
+    height: 350px;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715),1s;
+}
+
+#btns {
+    width: auto;
+    height: 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #01A7C2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+#btns:hover {
+    text-decoration: underline;
+}
+
+#btns:active {
+    background-color: #01A7C2;
+    color: white;
 }

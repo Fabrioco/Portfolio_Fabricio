@@ -20,8 +20,8 @@ function Home() {
                         <ol>
                             <li id='home'><a href="#AllObjective">Ínicio</a></li>
                             <li id='about'><a href="#AllAbout">Sobre</a></li>
-                            <li id='project'><a href="#project">Projetos</a></li>
-                            <li id='contact'><a href="#contact">Contato</a></li>
+                            <li id='project'><a href="#AllProjects">Projetos</a></li>
+                            <li id='contact'><a href="#AllContact">Contato</a></li>
                         </ol>
                     </nav>
             </div>
@@ -62,17 +62,21 @@ function Home() {
                 <img className="courses" src={locked} />
             </div>
         </div>
-        <div id="project">
-            <div id="project">
+        <div>
+            <div id="AllProjects">
                 <div>
-                    <h2>Projetos</h2>
+                    <h2 id="TitleProjects">Meus Projetos</h2>
                 </div>
-                {/* https://fabrioco.github.io/Projeto-Android/ projeto android
-                    https://fabrioco.github.io/Projeto-Cordel/ projeto cordel
-                    https://primeflix-fabricio.netlify.app prime flix*/}
+                <div id="projects">
+                    <div id="whatever"  ></div>
+                    <div id='seconds'><a id="btns" target="_blank" href="https://fabrioco.github.io/Projeto-Android/">Acessar</a></div>
+                    <div id="first"><a id="btns" target="_blank" href="https://primeflix-fabricio.netlify.app/">Acessar</a></div>
+                    <div id='seconds'><a id="btns" target="_blank" href="https://fabrioco.github.io/Projeto-Cordel/">Acessar</a></div>
+                    <div id="whatever"></div>
+                </div>
             </div>
         </div>
-        <div id="contact">
+        <div id="AllContact">
             <div id="contact">
                 <h3>Contatos</h3>
                 <h3>Redes Sociais</h3>
