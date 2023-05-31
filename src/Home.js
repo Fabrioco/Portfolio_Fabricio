@@ -1,25 +1,27 @@
-import Network from "./components/Resources/Network.svg"
-import CurriculoFabrício from './components/Resources/CurriculoFabricio.pdf';
+import Network from "./components/Resources/Obejective/Network.svg"
+import CurriculoFabrício from './components/Resources/Obejective/CurriculoFabricio.pdf';
 
-import picture from "./components/Resources/picture-me.jpeg"
+import picture from "./components/Resources/About/picture-me.jpeg"
 
-import HTML from './components/Resources/html.svg';
-import CSS from './components/Resources/css.svg';
-import JS from './components/Resources/JS.svg';
-import RJS from './components/Resources/ReactJS.svg';
-import locked from './components/Resources/lock.svg';
+import HTML from './components/Resources/About/html.svg';
+import CSS from './components/Resources/About/css.svg';
+import JS from './components/Resources/About/JS.svg';
+import RJS from './components/Resources/About/ReactJS.svg';
+import locked from './components/Resources/About/lock.svg';
 
-import android from './components/Resources/android.svg';
-import cordel from './components/Resources/cordel.svg';
-import primeflix from './components/Resources/primeflix.svg';
-import whatever from './components/Resources/whatever.svg'
+import android from './components/Resources/Projects/android.svg';
+import cordel from './components/Resources/Projects/cordel.svg';
+import primeflix from './components/Resources/Projects/primeflix.svg';
+import whatever from './components/Resources/Projects/whatever.svg'
 
-import facebook from './components/Resources/facebooklink.svg';
-import linkedin from './components/Resources/linkedinlink.svg';
+import facebook from './components/Resources/Contacts/facebooklink.svg';
+import linkedin from './components/Resources/Contacts/linkedinlink.svg';
 
 import './index.css'
 
 function Home() {
+
+    document.title = 'Portfolio'
 
     return(
         <div>
