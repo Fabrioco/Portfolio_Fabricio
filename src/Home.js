@@ -17,7 +17,8 @@ import whatever from './components/Resources/Projects/whatever.svg'
 import facebook from './components/Resources/Contacts/facebooklink.svg';
 import linkedin from './components/Resources/Contacts/linkedinlink.svg';
 
-import './index.css'
+import './index.css';
+import './indexmobile.css';
 
 function Home() {
 

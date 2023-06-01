@@ -1,0 +1,168 @@
+@media only screen and (max-width: 600px) {
+    #header {
+        height: 350px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #navegation ol {
+        display: flex;
+        flex-direction: column;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #navegation li {
+        margin-top: 5px;
+   }
+}
+
+
+@media only screen and (max-width: 600px) {
+    #BackToTop {
+        background-color: #FFFFFF;
+        color: black;
+        border-radius: 100%;
+        text-align: center;
+        vertical-align: baseline;
+        font-size: 35px;
+        font-weight: 800;
+        text-decoration: none;
+        border: 3px solid #01A7C2;
+        position: fixed;
+        top: 75%;
+        left: 80%;
+    }
+}
+
+/*OBJECTIVE*/
+
+@media only screen and (max-width: 600px) {
+    #AllObjective {
+        width: 100%;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #panel {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #my-person {
+        width: 50%;
+        display: flex;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #my-person h2 {
+        width: 95%;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #svg {
+        width: 100%;
+        margin: auto;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #down {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+   }
+}
+
+/*ABOUT*/
+
+@media only screen and (max-width: 600px) {
+    #content-about {
+        display: flex;
+        flex-direction: column;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #AllAbout {
+        width: 90%;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #TitleAbout {
+        width: 90%;
+        margin: auto;
+        padding: 0 10px 0 0;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #TextMe {
+        width: 90%;
+        margin: auto;
+        padding: 10px 10px 0 0;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #PicMe {
+        margin: auto;
+        top: 50%;
+        left: 20%;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    #courses {
+        padding: 0;
+   }
+}
+
+/*PROJECTS*/
+
+@media only screen and (max-width: 600px) {
+    #AllProjects {
+        width: 100%;
+        display: flex;
+        padding: 0%;
+        flex-direction: column;
+        height: 1500px;
+       }
+}
+
+@media only screen and (max-width: 600px) {
+    #projects {
+        display: flex;
+        flex-direction: column;
+   }
+}
+
+/*CONTACTS*/
+
+@media only screen and (max-width: 600px) {
+    #AllContact {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #Contact {
+        width: 100%;
+        margin-right: 0;
+    }
+}
