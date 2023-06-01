@@ -140,7 +140,7 @@
         display: flex;
         padding: 0%;
         flex-direction: column;
-        height: 1500px;
+        height: 1700px;
        }
 }
 
@@ -151,12 +151,62 @@
    }
 }
 
+@media only screen and (max-width: 600px) {
+    #whatever {
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        border: 1px solid #01A7C2;
+        box-shadow: 0 2px 5px 1px #01A7C2;
+        margin: 0 40px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1),2s;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 20px 0;
+        padding: 10px 0;
+        }   
+}
+
+@media only screen and (max-width: 600px) {
+    #seconds {
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        border: 1px solid #01A7C2;
+        box-shadow: 0 2px 5px 1px #01A7C2;
+        margin: 0 40px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1),2s;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #first {
+        margin: 20px 0;
+        padding: 10px 0;
+   }
+}
+
+
 /*CONTACTS*/
 
 @media only screen and (max-width: 600px) {
     #AllContact {
         width: 100%;
         margin: auto;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -164,5 +214,11 @@
     #Contact {
         width: 100%;
         margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #TitleContact {
+        margin-top: 50px;
     }
 }
