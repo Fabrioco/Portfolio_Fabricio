@@ -25,7 +25,7 @@ function Home() {
     document.title = 'Portfolio'
 
     return(
-        <div>
+        <div id='Principal'>
             <div id="AllProject">
             <div id="header">
                 <h1 id="title">Portfolio</h1>
@@ -51,7 +51,6 @@ function Home() {
                 </div>
             </div>
                 <a id="down" href="#AllAbout">Role para baixo</a>
-                <a id="BackToTop" href="#header">&uarr;</a>
         </div>
         <div id="content-about">
             <div id="AllAbout">
@@ -124,6 +123,9 @@ function Home() {
                     <img id="svgfacebook" src={facebook} />Facebook</a>
             </div>
         </div>
+        <div id="btnBackTop">
+                <a id="BackToTop" href="#header">&uarr;</a>
+                </div>
         </div>
     )
 }

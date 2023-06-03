@@ -1,8 +1,16 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+    * {
+        margin: 0;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
     #header {
         height: 350px;
-        width: 100%;
-        margin: auto;
+        width: 100vw;
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -10,75 +18,70 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     #navegation ol {
         display: flex;
         flex-direction: column;
-   }
+        text-align: center;
+        
+    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     #navegation li {
         margin-top: 5px;
    }
 }
 
-
-@media only screen and (max-width: 600px) {
-    #BackToTop {
-        background-color: #FFFFFF;
-        color: black;
-        border-radius: 100%;
-        text-align: center;
-        vertical-align: baseline;
-        font-size: 35px;
-        font-weight: 800;
-        text-decoration: none;
-        border: 3px solid #01A7C2;
-        position: fixed;
-        top: 75%;
-        left: 80%;
-    }
-}
-
 /*OBJECTIVE*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     #AllObjective {
-        width: 100%;
+        width: 100vw;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+    #my-person {
+        text-align: left;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
     #panel {
         display: flex;
         flex-direction: column;
         margin: auto;
-        width: 100%;
+        width: 100vw;
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     #my-person {
-        width: 50%;
+        width: auto;
         display: flex;
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     #my-person h2 {
         width: 95%;
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     #svg {
-        width: 100%;
         margin: auto;
+        width: 90%;
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     #down {
         width: 100%;
         margin: auto;
@@ -89,52 +92,73 @@
 
 /*ABOUT*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
     #content-about {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        margin: auto;
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
     #AllAbout {
         width: 90%;
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
     #TitleAbout {
-        width: 90%;
-        margin: auto;
-        padding: 0 10px 0 0;
+        width: 100%;
+        padding: 0 45px 0 0;
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
     #TextMe {
-        width: 90%;
+        width: 100%;
         margin: auto;
-        padding: 10px 10px 0 0;
+        padding-top: 10px;
+        padding-right: 22px;
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
     #PicMe {
-        margin: auto;
+        margin: 30px 0;
         top: 50%;
-        left: 20%;
+        left: 0;
+        
    }
 }
 
-@media only screen and (max-width: 600px) {
-    #courses {
-        padding: 0;
+@media only screen and (max-width: 1300px) {
+    #disciplines {
+        width: 170px;
+        max-height: 250px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .courses {
+        max-width: 50px;
+        max-height: 50px;
+        margin: 5px 5px;
+        padding: 5px;
+
    }
 }
 
 /*PROJECTS*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1750px) {
     #AllProjects {
         width: 100%;
         display: flex;
@@ -144,14 +168,20 @@
        }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1750px) {
     #projects {
         display: flex;
         flex-direction: column;
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1750px) {
+    #TitleProjects {
+        margin-bottom: 10px;
+   }
+}
+
+@media only screen and (max-width: 1750px) {
     #whatever {
         background-color: white;
         width: 300px;
@@ -171,7 +201,7 @@
         }   
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1750px) {
     #seconds {
         background-color: white;
         width: 300px;
@@ -191,7 +221,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1750px) {
     #first {
         margin: 20px 0;
         padding: 10px 0;
@@ -202,9 +232,9 @@
 /*CONTACTS*/
 
 @media only screen and (max-width: 600px) {
-    #AllContact {
-        width: 100%;
-        margin: auto;
+    #AllContact{
+        width: 99vw;
+        margin: 0;
         display: flex;
         flex-direction: column;
     }
@@ -220,5 +250,11 @@
 @media only screen and (max-width: 600px) {
     #TitleContact {
         margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #btnBackTop {
+        left: 85%;
     }
 }
