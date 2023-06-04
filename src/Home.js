@@ -59,7 +59,7 @@ function Home() {
                 Olá, tenho 20 anos, com um pouco de conhecimento em Inglês e aprendendo Japonês. Com conhecimentos básicos em HTML5, CSS3, JavaScript e ReactJS.
                   Ainda sem experiência, pois estou estudando para poder conseguir um emprego na área da programação. De começo como Desenvolvedor Front-End Junior.</p>
             </div>
-            <div>
+            <div id="divPic">
                 <img id='PicMe' src={picture} />
             </div>
             <div id="disciplines">

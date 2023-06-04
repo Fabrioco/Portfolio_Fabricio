@@ -15,7 +15,7 @@
     margin: auto;
     height: 150px;
     background-color: #171717;
-    width: 100vw;
+    width: 99vw;
 }
 
 #title {
@@ -181,13 +181,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#divPic {
+    border-bottom: 3px solid white;
+}
+
 #PicMe {
     width: 200px;
     border-radius: 100%;
     position: relative;
     top: 100px;
     left: -100px;
-    margin: 0;
+    margin-right: 100px;
     box-shadow: 0px 0px 10px 1px #01A7C2;
 }
 
@@ -196,11 +200,12 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    left: -200px;
     min-width: 250px;
-    padding: 0 0 0 250px;
+    height: 440px;
     border-bottom: 3px solid white;
     flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 .courses {
